@@ -50,6 +50,7 @@ Stylesheet:
   - stations.mss
   - amenity-points.mss
   - ferry-routes.mss
+  - admin.mss
   - addressing.mss
 Layer:
   - id: world
