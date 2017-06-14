@@ -274,14 +274,6 @@
     }
   }
 
-  [feature = 'landuse_forest'],
-  [feature = 'natural_wood'] {
-    [zoom >= 8] {
-      polygon-fill: @forest;
-      [way_pixels >= 4]  { polygon-gamma: 0.75; }
-      [way_pixels >= 64] { polygon-gamma: 0.3;  }
-    }
-  }
 
   [feature = 'landuse_farmyard'][zoom >= 10] {
     polygon-fill: @farmyard;

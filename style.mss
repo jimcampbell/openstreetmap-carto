@@ -2,7 +2,7 @@ Map {
   background-color: @water-color;
 }
 
-@water-color: #b5d0d0;
+@water-color: #C4DFF6;
 @land-color: #f2efe9;
 
 @standard-halo-radius: 1;
