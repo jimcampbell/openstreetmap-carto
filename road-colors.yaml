@@ -10,7 +10,7 @@ roads:
 
 # The starting and ending hue. The range goes from 0 to 360, with 0 and 360
 # representing red.
-hue: [10, 106]
+hue: [40,90]
 
 # The lightness and chroma (also known as saturation) for each type of colour.
 # Lightness ranges from 0 to 100; dark to bright.
@@ -19,20 +19,20 @@ classes:
   # Colours for output into the MSS file
   mss:
     fill:
-      lightness: [50, 70]
-      chroma: [35, 29]
+      lightness: [75, 95]
+      chroma: [25, 9]
     casing:
-      lightness: [50, 50]
-      chroma: [70, 55]
+      lightness: [80, 80]
+      chroma: [25, 9]
     low-zoom:
       lightness: [62, 92]
-      chroma: [50, 40]
+      chroma: [25, 9]
     low-zoom-casing:
       lightness: [50, 70]
-      chroma: [50, 65]
+      chroma: [25, 9]
     shield:
       lightness: [20, 25]
-      chroma: [40, 42]
+      chroma: [25, 9]
   # Colours used by the road shields script
   shield:
     fill:
