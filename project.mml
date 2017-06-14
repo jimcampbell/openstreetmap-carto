@@ -50,7 +50,6 @@ Stylesheet:
   - stations.mss
   - amenity-points.mss
   - ferry-routes.mss
-  - aerialways.mss
   - admin.mss
   - addressing.mss
 Layer:
