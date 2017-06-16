@@ -55,7 +55,7 @@
   [feature = 'place_islet'][zoom >= 14][way_pixels > 3000][way_pixels < 800000],
   [feature = 'place_islet'][zoom >= 17][way_pixels < 800000] {
     text-name: "[name]";
-    text-fill: #000;
+    text-fill: #a5a5a5;
     text-size: @standard-text-size;
     [way_pixels > 12000] { text-size: 12; }
     [way_pixels > 48000] { text-size: 15; }
