@@ -1,4 +1,4 @@
-@power-line-color: #888;
+@power-line-color: #a5a5a5;
 
 #power-line {
   [zoom >= 14] {
