@@ -3,24 +3,24 @@
 /* To change these definitions, alter road-colors.yaml and run:      */
 /*                                                                   */
 /*   ./scripts/generate_road_colours.py > road-colors-generated.mss  */
-/*                                                                   */
-@motorway-low-zoom-casing: #c24e6b;
-@trunk-low-zoom-casing: #cf6649;
-@primary-low-zoom-casing: #c38a27;
-@secondary-low-zoom-casing: #9eae23;
-@motorway-casing: #dc2a67;
-@trunk-casing: #c84e2f;
-@primary-casing: #a06b00;
-@secondary-casing: #707d05;
-@motorway-shield: #620728;
-@trunk-shield: #5d1b0b;
-@primary-shield: #4c2e00;
-@secondary-shield: #323b00;
-@motorway-low-zoom: #e66e89;
-@trunk-low-zoom: #f5977a;
-@primary-low-zoom: #f3c380;
-@secondary-low-zoom: #e8eda0;
-@motorway-fill: #e892a2;
-@trunk-fill: #f9b29c;
-@primary-fill: #fcd6a4;
-@secondary-fill: #f7fabf;
+/* Hand modifie                                                                   */
+@motorway-low-zoom-casing: #9c6a5d;
+@trunk-low-zoom-casing: #aaa599;
+@primary-low-zoom-casing: #aaa599;
+@secondary-low-zoom-casing: #aaa599;
+@motorway-casing: #cbc6b9;
+@trunk-casing: #cbc6b9;
+@primary-casing: #cbc6b9;
+@secondary-casing: #cbc6b9;
+@motorway-shield: #3a372c;
+@trunk-shield: #3a372c;
+@primary-shield: #3a372c;
+@secondary-shield: #3a372c;
+@motorway-low-zoom: #ede8db;
+@trunk-low-zoom: #ede8db;
+@primary-low-zoom: #ede8db;
+@secondary-low-zoom: #ede8db;
+@motorway-fill: #f0eadd;
+@trunk-fill: #f0eadd;
+@primary-fill: #f0eadd;
+@secondary-fill: #f0eadd;
