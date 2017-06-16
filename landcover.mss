@@ -4,7 +4,7 @@
 @scrub: #b5e3b5;
 @forest: #add19e;       // Lch(80,30,135)
 @forest-text: #46673b;  // Lch(40,30,135)
-@park: #eaf9ec;         // Lch(94,30,145) also recreation_ground
+@park: #f4f9f5;         // Lch(94,30,145) also recreation_ground
 @orchard: #aedfa3; // also vineyard, plant_nursery
 
 // --- "Base" landuses ---
@@ -37,8 +37,8 @@
 
 @allotments: #eecfb3;       // Lch(85,19,70)
 @bare_ground: #eee5dc;
-@campsite: #def6c0; // also caravan_site, picnic_site
-@cemetery: #aacbaf; // also grave_yard
+@campsite: #f4f9f5; // also caravan_site, picnic_site
+@cemetery: #f4f9f5; // also grave_yard
 @construction: #c7c7b4; // also brownfield
 @danger_area: pink;
 @heath: #d6d99f;
@@ -83,17 +83,6 @@
       polygon-fill: @cemetery;
       [way_pixels >= 4]  { polygon-gamma: 0.75; }
       [way_pixels >= 64] { polygon-gamma: 0.3;  }
-    }
-    [zoom >= 14] {
-      [religion = 'jewish'] { polygon-pattern-file: url('symbols/grave_yard_jewish.png'); }
-      [religion = 'christian'] { polygon-pattern-file: url('symbols/grave_yard_christian.png'); }
-      [religion = 'INT-generic'] { polygon-pattern-file: url('symbols/grave_yard_generic.png'); }
-      [religion = 'jewish'],
-      [religion = 'christian'],
-      [religion = 'INT-generic'] {
-        [way_pixels >= 4]  { polygon-pattern-gamma: 0.75; }
-        [way_pixels >= 64] { polygon-pattern-gamma: 0.3;  }
-      }
     }
   }
 
