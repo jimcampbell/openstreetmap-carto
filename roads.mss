@@ -269,14 +269,14 @@
 
 // Shield’s line wrap is based on OpenStreetMap data and not on line-wrap-width,
 // but lines are typically rather short, so we use narrow line spacing.
-@shield-size: 10;
+@shield-size: 5;
 @shield-line-spacing: -1.50; // -0.15 em
-@shield-size-z16: 11;
+@shield-size-z16: 8;
 @shield-line-spacing-z16: -1.65; // -0.15 em
-@shield-size-z18: 12;
+@shield-size-z18: 9;
 @shield-line-spacing-z18: -1.80; // -0.15 em
-@shield-spacing: 760;
-@shield-min-distance: 40;
+@shield-spacing: 1200;
+@shield-min-distance: 1000;
 @shield-font: @book-fonts;
 @shield-clip: false;
 
@@ -765,18 +765,6 @@
       }
     }
 
-    [feature = 'railway_disused'][zoom >= 15],
-    [feature = 'railway_construction'],
-    [feature = 'railway_miniature'][zoom >= 15],
-    [feature = 'railway_INT-preserved-ssy'][zoom >= 14] {
-      .bridges-casing {
-        [zoom >= 13] {
-          line-width: 6;
-          line-color: @bridge-casing;
-          line-join: round;
-        }
-      }
-    }
 
     [feature = 'aeroway_runway'] {
       .bridges-casing {
@@ -2394,31 +2382,6 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
 }
 
 #junctions {
-  [highway = 'motorway_junction'] {
-    [zoom >= 11] {
-      text-name: "[ref]";
-      text-size: 10;
-      text-fill: @junction-text-color;
-      text-min-distance: 2;
-      text-face-name: @oblique-fonts;
-      text-halo-radius: @standard-halo-radius;
-      text-wrap-character: ";";
-      text-wrap-width: 2; // effectively break after every wrap character
-      text-line-spacing: -1.5; // -0.15 em
-      [zoom >= 12] {
-        ["name" != null]["ref" = null] {
-          text-name: "[name]";
-        }
-        ["name" != null]["ref" != null] {
-          text-name: [name] + "\n" + [ref];
-        }
-      }
-      [zoom >= 15] {
-        text-size: 11;
-        text-line-spacing: -1.65; // -0.15 em
-      }
-    }
-  }
 
   [junction = 'yes'],
   [highway = 'traffic_signals'] {
