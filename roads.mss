@@ -252,20 +252,20 @@
 @junction-text-color:             #960000;
 @halo-color-for-minor-road: white;
 
-@motorway-oneway-arrow-color:     darken(@motorway-casing, 25%);
-@trunk-oneway-arrow-color:        darken(@trunk-casing, 25%);
-@primary-oneway-arrow-color:      darken(@primary-casing, 15%);
-@secondary-oneway-arrow-color:    darken(@secondary-casing, 10%);
-@tertiary-oneway-arrow-color:     darken(@tertiary-casing, 30%);
-@residential-oneway-arrow-color:  darken(@residential-casing, 40%);
-@living-street-oneway-arrow-color: darken(@residential-casing, 30%);
-@pedestrian-oneway-arrow-color:   darken(@pedestrian-casing, 25%);
-@raceway-oneway-arrow-color:      darken(@raceway-fill, 50%);
-@footway-oneway-arrow-color:      darken(@footway-fill, 35%);
-@steps-oneway-arrow-color:        darken(@steps-fill, 35%);
-@cycleway-oneway-arrow-color:     darken(@cycleway-fill, 25%);
-@track-oneway-arrow-color:        darken(@track-fill, 15%);
-@bridleway-oneway-arrow-color:    darken(@track-fill, 10%);
+@motorway-oneway-arrow-color:     rgba(100, 100, 100, 0); 
+@trunk-oneway-arrow-color:        rgba(100, 100, 100, 0);
+@primary-oneway-arrow-color:      rgba(100, 100, 100, 0);
+@secondary-oneway-arrow-color:    rgba(100, 100, 100, 0);
+@tertiary-oneway-arrow-color:     rgba(100, 100, 100, 0);
+@residential-oneway-arrow-color:  rgba(100, 100, 100, 0);
+@living-street-oneway-arrow-color: rgba(100, 100, 100, 0);
+@pedestrian-oneway-arrow-color:   rgba(100, 100, 100, 0);
+@raceway-oneway-arrow-color:      rgba(100, 100, 100, 0);
+@footway-oneway-arrow-color:      rgba(100, 100, 100, 0);
+@steps-oneway-arrow-color:        rgba(100, 100, 100, 0);
+@cycleway-oneway-arrow-color:     rgba(100, 100, 100, 0);
+@track-oneway-arrow-color:        rgba(100, 100, 100, 0);
+@bridleway-oneway-arrow-color:    rgba(100, 100, 100, 0);
 
 // Shield’s line wrap is based on OpenStreetMap data and not on line-wrap-width,
 // but lines are typically rather short, so we use narrow line spacing.
