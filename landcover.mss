@@ -4,7 +4,7 @@
 @scrub: #b5e3b5;
 @forest: #add19e;       // Lch(80,30,135)
 @forest-text: #46673b;  // Lch(40,30,135)
-@park: #f4f9f5;         // Lch(94,30,145) also recreation_ground
+@park: #def9e3;         // Lch(94,30,145) also recreation_ground
 @orchard: #aedfa3; // also vineyard, plant_nursery
 
 // --- "Base" landuses ---
@@ -37,8 +37,8 @@
 
 @allotments: #eecfb3;       // Lch(85,19,70)
 @bare_ground: #eee5dc;
-@campsite: #f4f9f5; // also caravan_site, picnic_site
-@cemetery: #f4f9f5; // also grave_yard
+@campsite: #def9e3; // also caravan_site, picnic_site
+@cemetery: #def9e3; // also grave_yard
 @construction: #c7c7b4; // also brownfield
 @danger_area: pink;
 @heath: #d6d99f;
