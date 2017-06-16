@@ -4,7 +4,7 @@
 @scrub: #b5e3b5;
 @forest: #add19e;       // Lch(80,30,135)
 @forest-text: #46673b;  // Lch(40,30,135)
-@park: #c8facc;         // Lch(94,30,145) also recreation_ground
+@park: #eaf9ec;         // Lch(94,30,145) also recreation_ground
 @orchard: #aedfa3; // also vineyard, plant_nursery
 
 // --- "Base" landuses ---
@@ -15,7 +15,7 @@
 @retail-line: #d99c95;      // Lch(70,25,30)
 @commercial: #f2dad9;       // Lch(89,8.5,25)
 @commercial-line: #d1b2b0;  // Lch(75,12,25)
-@industrial: #ebdbe8;       // Lch(89,9,330) (Also used for railway)
+@industrial: #e0e0e0;       // Lch(89,9,330) (Also used for railway)
 @industrial-line: #c6b3c3;  // Lch(75,11,330) (Also used for railway-line)
 @farmland: #fbecd7;         // Lch(94,12,80)
 @farmland-line: #d6c4ab;    // Lch(80,15,80)
@@ -50,7 +50,7 @@
 @power-line: darken(@industrial-line, 5%);
 @sand: #f5e9c6;
 @societal_amenities: #f0f0d8;
-@tourism: #734a08;
+@tourism: #e0e0e0;
 @quarry: #c5c3c3;
 @military: #f55;
 @beach: #fff1ba;

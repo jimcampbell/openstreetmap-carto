@@ -50,7 +50,7 @@
 @private-marking-for-red: #C26363;
 
 @tunnel-casing: grey;
-@bridge-casing: #d8d8d8;
+@bridge-casing: #f2f2f2;
 
 @motorway-tunnel-fill: lighten(@motorway-fill, 10%);
 @trunk-tunnel-fill: lighten(@trunk-fill, 10%);
@@ -748,7 +748,7 @@
     [feature = 'railway_monorail'][zoom >= 14] {
       .bridges-casing {
         [zoom >= 13] {
-          line-width: 6.5;
+          line-width: 4.5;
           line-color: @bridge-casing;
           line-join: round;
         }
@@ -1800,7 +1800,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
     [feature = 'railway_rail'][zoom >= 13],
     [feature = 'railway_INT-spur-siding-yard'][zoom >= 13] {
       [zoom < 13] {
-        line-color: #787878;
+        line-color: #e0e0e0;
         line-width: 0.5;
         [zoom >= 8] { line-width: 0.8; }
         [zoom >= 12] { line-width: 0.9; }
@@ -1815,7 +1815,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
           light/line-color: white;
           light/line-join: round;
           [feature = 'railway_rail'] {
-            dark/line-color: #707070;
+            dark/line-color: #e0e0e0;
             dark/line-width: 3;
             light/line-width: 1;
             light/line-dasharray: 8,8;
@@ -1829,7 +1829,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
           }
           [feature = 'railway_INT-spur-siding-yard'] {
             dark/line-width: 2;
-            dark/line-color: #aaa;
+            dark/line-color: #e0e0e0;
             light/line-width: 0.8;
             light/line-dasharray: 0,8,8,1;
             [zoom >= 18] {
@@ -1863,7 +1863,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
     [feature = 'railway_funicular'],
     [feature = 'railway_narrow_gauge'] {
       [zoom >= 8] {
-        line-color: #ccc;
+        line-color: #e0e0e0;
         [zoom >= 10] { line-color: #aaa; }
         [zoom >= 13] { line-color: #666; }
         line-width: 1;
@@ -1877,7 +1877,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
     [feature = 'railway_miniature'] {
       [zoom >= 15] {
         line/line-width: 1.2;
-        line/line-color: #999;
+        line/line-color: #e0e0e0;
         dashes/line-width: 3;
         dashes/line-color: #999;
         dashes/line-dasharray: 1,10;
@@ -1887,7 +1887,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
     [feature = 'railway_tram'],
     [feature = 'railway_tram-service'][zoom >= 15] {
       [zoom >= 12] {
-        line-color: #6E6E6E;
+        line-color: #e0e0e0;
         line-width: 0.75;
         [zoom >= 13] {
           line-color: #444;
@@ -1926,7 +1926,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
     [feature = 'railway_subway'] {
       [zoom >= 12] {
         line-width: 2;
-        line-color: #999;
+        line-color: #e0e0e0;
         .tunnels-fill {
           line-dasharray: 5,3;
         }
@@ -1942,11 +1942,11 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
     [feature = 'railway_preserved'] {
       [zoom >= 12] {
         dark/line-width: 1.5;
-        dark/line-color: #aaa;
+        dark/line-color: #e0e0e0;
         dark/line-join: round;
         [zoom >= 13] {
           dark/line-width: 3;
-          dark/line-color: #999999;
+          dark/line-color: #e0e0e0;
           light/line-width: 1;
           light/line-color: white;
           light/line-dasharray: 0,1,8,1;
@@ -2004,7 +2004,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
 
     [feature = 'railway_disused'] {
       [zoom >= 15] {
-        line-color: #aaa;
+        line-color: #e0e0e0;
         line-width: 2;
         line-dasharray: 2,4;
         line-join: round;
