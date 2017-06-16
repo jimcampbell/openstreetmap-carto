@@ -106,7 +106,7 @@
 
     [bridge = 'yes'] {
       [zoom >= 14] {
-        bridgecasing/line-color: black;
+        bridgecasing/line-color: #a5a5a5;
         bridgecasing/line-join: round;
         bridgecasing/line-width: 6;
         [zoom >= 15] { bridgecasing/line-width: 7; }
@@ -177,7 +177,7 @@
 
       [bridge = 'yes'] {
         [zoom >= 14] {
-          bridgecasing/line-color: black;
+          bridgecasing/line-color: #a5a5a5;
           bridgecasing/line-join: round;
           bridgecasing/line-width: 4;
           [waterway = 'stream'][zoom >= 15] { bridgecasing/line-width: 4; }
